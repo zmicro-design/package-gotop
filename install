@@ -22,7 +22,7 @@ install() {
 
   local tmp_file=/tmp/gotop.tar.gz
 
-  local url="https://github.com/xxxserxxx/gotop/releases/download/${VERSION}/gotop_${VERSION}_${os}_${arch}.tar.gz"
+  local url="https://github.com/xxxserxxx/gotop/releases/download/${VERSION}/gotop_${VERSION}_${os}_${arch}.tgz"
   curl -fSL $url -o $tmp_file
 
   cd /tmp
